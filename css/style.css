@@ -101,7 +101,7 @@ h1 {
 }
 
 h2 {font-size: 5.063rem;}
-
+#smaller {font-size: 4rem;}
 h3 {font-size: 3.375rem;}
 
 h4 {font-size: 2.25rem;}
@@ -137,6 +137,21 @@ small, .text_small {font-size: 0.667rem;}
 .m-0 {
     margin: 0;
 }
+.btn {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+.btn-secondary {
+    border: 1px solid #f3f3f3;
+    border-radius: 30px;
+}
+.btn-secondary:hover {
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+}
+
 /* END GLOBAL STYLES */
 
 /* MAIN STYLES */
@@ -156,6 +171,24 @@ small, .text_small {font-size: 0.667rem;}
 }
 .logo {
     width: 4em;
+}
+.hero-copy>h2>span {
+    color: orange;
+}
+.hero-copy span {
+text-transform: capitalize;
+}
+.hero-copy {
+    position: relative;
+}
+.placeholder {
+    color: lightgray;
+    font-weight: 700;
+    position: absolute;
+    left: -60px;
+    top: -20px;
+    z-index: -1;
+
 }
 .social-footer {
     flex-direction: row;
